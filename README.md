@@ -1,7 +1,7 @@
 # Click-Events
-Best way to listen for click events on all links in an ordered list, whether it's 2 or 100?
+The best way to listen for click events on all links in an ordered list, whether it's 2 or 100?
 
-Below is the ordred list.
+Below is the ordered list.
 ```html
 <ol id="orderedList">
   <li><a href="#">Link 1</a></li>
@@ -12,7 +12,7 @@ Below is the ordred list.
   <li><a href="#">Link 6</a></li>
 </ol>
 ```
-Using event delegation and taking advantage of event bubbling you are able to use bubbled events to find matches on child elements. This technique is very useful because it allows Links to be added dynamically without having to add Listener Events to individual nodes.
+Using Event bubbling you are able to add a listener event only to the parent. This would also allow you to add links dynamically with out creating additional listener events. Using the same amount of code you are able to listen to 2 to 100 links.
 
 ```javascript
 // locate ordered list and add the Click Event Listener
