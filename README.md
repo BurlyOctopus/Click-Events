@@ -4,12 +4,12 @@ Best way to listen for click events on all links in an ordered list, whether it'
 Below is the ordred list.
 ```html
 <ol id="orderedList">
-  <li><a href="">Link 1</a></li>
-  <li><a href="">Link 2</a></li>
-  <li><a href="">Link 3</a></li>
-  <li><a href="">Link 4</a></li>
-  <li><a href="">Link 5</a></li>
-  <li><a href="">Link 6</a></li>
+  <li><a href="#">Link 1</a></li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li>
+  <li><a href="#">Link 4</a></li>
+  <li><a href="#">Link 5</a></li>
+  <li><a href="#">Link 6</a></li>
 </ol>
 ```
 Using event delegation and taking advantage of event bubbling you are able to use bubbled events to find matches on child elements. This technique is very useful because it allows Links to be added dynamically without having to add Listener Events to individual nodes.
