@@ -12,7 +12,7 @@ Below is the ordered list.
   <li><a href="#">Link 6</a></li>
 </ol>
 ```
-Using Event bubbling you are able to add a listener event only to the parent. This would also allow you to add links dynamically with out creating additional listener events. Using the same amount of code you are able to listen to 2 to 100 links.
+Using Event bubbling you are able to add a listener event only to the parent. This would also allow you to add links dynamically without creating additional listener events. Using the same amount of code you are able to listen to any number of links.
 
 ```javascript
 // locate ordered list and add the Click Event Listener
